@@ -28,3 +28,4 @@ C:\Users\Aluno\pj01\obj\Debug\net8.0\refint\pj01.dll
 C:\Users\Aluno\pj01\obj\Debug\net8.0\pj01.pdb
 C:\Users\Aluno\pj01\obj\Debug\net8.0\pj01.genruntimeconfig.cache
 C:\Users\Aluno\pj01\obj\Debug\net8.0\ref\pj01.dll
+C:\Users\Aluno\pj01\obj\Debug\net8.0\pj01.sourcelink.json

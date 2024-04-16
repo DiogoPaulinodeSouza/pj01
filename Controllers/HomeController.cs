@@ -15,6 +15,19 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+
+        try
+        {
+            throw new Exception("Erro especifico");
+
+            TempData["Sucesso"] = "Cadastrado com Sucesso";
+        }
+        catch(Exception ex){
+        
+                TempData["Erro"] = "Erro na execusao do sistemas";
+
+        }
+
         return View();
     }
 

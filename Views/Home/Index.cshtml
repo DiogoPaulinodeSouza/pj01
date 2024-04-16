@@ -52,6 +52,22 @@
 </table>
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+
+@if (TempData["Erro"] != null)
+{
+<div class="alert alert-danger">
+      @TempData["Erro"]
+      </div>
+}
+
+@if (TempData["Sucesso"] != null)
+{
+<div class="alert alert-Sucesso">
+      @TempData["Sucesso"]
+      </div>
+}
+
+
+    <h1 class="display-4">ola diogo</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
